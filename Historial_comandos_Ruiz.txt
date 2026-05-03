@@ -1,0 +1,206 @@
+echo hola
+echo "Hoy es lunes"
+echo $HOME
+man
+man man
+man echo
+pwd
+ls
+ls -l
+mdkir clase4_113
+mkdir clase4_113
+ls -l
+cs clase4_113
+cd clase4_113
+ls -l
+history
+cat > archivo1.txt
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls-l
+ls -l
+cat id_ed25519.pub
+cd ..
+pwd
+ls .l
+ls -l
+cd repogit
+git clone git@github.com:Ruiz2107/vmvagrant_repo.git
+ls -l
+cd vmvagrant_repo
+ls -l
+echo "Mi primer repo"
+echo "Mi primer repo" > texto.txt
+ls -l
+cat texto1.txt
+cat texto.txt
+git status
+git add .
+git status
+git commit -m "mi primer commit"
+git config --global user.email "ruiznicolasuni@gmail.com"
+git commit -m "mi primer commit"
+ls -l
+git push
+echo "chau" >> texto.txt
+cat texto.txt
+ls -l
+git status
+git add .
+git status
+git commit -m "agregue chau"
+git push
+history
+vagrant halt
+cd
+vagrant halt
+pwd
+ls -l
+cd clase4_113
+ls -l
+cat archivo1.txt
+grep Linea3 archivo.txt
+grep -i linea3 archivo.txt
+clear
+tree
+sudo apt update
+sudo apt install tree
+tree
+cd ..
+pwd
+tree
+ls -l
+mkdir clase5
+ls -l
+cd clase 5
+cd clase5
+pwd
+ls -l
+mkdir practica
+ls -l
+tree
+cd practica
+ls -l
+tree
+touch practica1.txt
+ls -l
+cat practica1.txt
+cd ..
+cd practica
+cp practica1.txt practica2.txt
+ls -l
+rm practica1.txt
+ls -l
+mv practica2.txt /home/vagrant/clase5
+ls -l
+cd ..
+ls -l
+rmdir practica/
+ls -l
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p ruiz_1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p ruiz_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+tree
+pwd
+grep vagrant /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow
+grep vagrant /etc/group
+history
+sudo su
+history
+sudo su
+cd ..
+pwd
+groupadd Alumnos
+sudo groupadd Alumnos
+cat
+sudo useradd -m -s /bin/bash -c "Alumno pepe"
+cat /etc/passwd
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno pepe"
+cat /etc/passwd
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno pepe"
+sudo useradd -m -s /bin/bash -c "Alumno pepe" -G Alumnos pepe
+cat /etc/passwd
+cat /etc/group
+ls -l /home
+tree
+passwd pepe
+sudo passwd pepe
+passwd pepe
+su - pepe
+pwd
+su pepe
+pwd
+su - pepe
+pws
+pwd
+sudo usermod -aG sudo pepe
+su - pepe
+pwd
+cd ..
+pwd
+ssh-keygen -t ed25519
+pwd
+cat $HOME/.ssh/*.pub
+cd
+pwd
+cd
+pwd
+mkdir repogit
+tree
+cd repogit
+git clone git@github.com:Ruiz2107/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep
+grep -c Home_url /etc/os-release
+grep -c Home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git add.
+git add .
+ls
+git add .
+git config --global user.email "ruiznicolasuni@gmail.com"
+git config --global user.name "Ruiz2107"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Nicolas Ruiz
+Division: 113
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+ls -l
+tree
+history -a
